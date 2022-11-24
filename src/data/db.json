@@ -1,0 +1,131 @@
+{
+  "scarfs": [
+    {
+      "id": "1a",
+      "title": "Silk & Alpaca scarf hand woven",
+      "price": 120,
+      "category": "Alpaca Wool",
+      "img": "../assets/imgs/img_1.jpg"
+    },
+
+    {
+      "id": "2b",
+      "title": "Silk & Alpaca scarf hand woven",
+      "price": 120,
+      "category": "Alpaca Wool",
+      "img": "../assets/imgs/img_2.jpg"
+    },
+
+    {
+      "id": "3c",
+      "title": "Silk & Alpaca scarf hand woven",
+      "price": 120,
+      "category": "Alpaca Wool",
+      "img": "../assets/imgs/img_3.jpg"
+    },
+
+    {
+      "id": "4d",
+      "title": "Baby Alpaca & Silk scarf hand woven",
+      "price": 175,
+      "category": "Alpaca Wool",
+      "img": "../assets/imgs/img_4.jpg"
+    },
+
+    {
+      "id": "5e",
+      "title": "Cotton & Silk scarf hand woven",
+      "price": 150,
+      "category": "Alpaca Wool",
+      "img": "../assets/imgs/img_5.jpg"
+    },
+
+    {
+      "id": "6f",
+      "title": "Cotton, Linen & Silk scarf hand woven",
+      "price": 130,
+      "category": "Alpaca Wool",
+      "img": "../assets/imgs/img_6.jpg"
+    },
+
+    {
+      "id": "7g",
+      "title": "Cotton & Linen scarf hand woven",
+      "price": 65,
+      "category": "Alpaca Wool",
+      "img": "../assets/imgs/img_7.jpg"
+    },
+
+    {
+      "id": "8h",
+      "title": "Baby Alpaca scarf hand woven",
+      "price": 150,
+      "category": "Alpaca Wool",
+      "img": "../assets/imgs/img_8.jpg"
+    },
+
+    {
+      "id": "9i",
+      "title": "Gulmi scarf",
+      "price": 29,
+      "category": "Himalayan Wool",
+      "img": "../assets/imgs/bufanda-gulmi.jpg"
+    },
+
+    {
+      "id": "10j",
+      "title": "Gaida print",
+      "price": 29,
+      "category": "Himalayan Wool",
+      "img": "../assets/imgs/bufanda-gaida.jpg"
+    },
+
+    {
+      "id": "11k",
+      "title": "Hatti print",
+      "price": 29,
+      "category": "Himalayan Wool",
+      "img": "../assets/imgs/bufanda-hatti.jpg"
+    },
+
+    {
+      "id": "12l",
+      "title": "Chara print",
+      "price": 29,
+      "category": "Himalayan Wool",
+      "img": "../assets/imgs/chal-chara.jpg"
+    },
+
+    {
+      "id": "13m",
+      "title": "Jhapa colors",
+      "price": 29,
+      "category": "Himalayan Wool",
+      "img": "../assets/imgs/chal-jhapa.jpg"
+    },
+
+    {
+      "id": "14n",
+      "title": "Jumla Rain",
+      "price": 29,
+      "category": "Himalayan Wool",
+      "img": "../assets/imgs/chal-jumla-agua.jpg"
+    },
+
+    {
+      "id": "15o",
+      "title": "Dharan variant",
+      "price": 29,
+      "category": "Himalayan Wool",
+      "img": "../assets/imgs/dharan.jpg"
+    },
+
+    {
+      "id": "16p",
+      "title": "Resunga scarf",
+      "price": 29,
+      "category": "Himalayan Wool",
+      "img": "../assets/imgs/fular-resunga.jpg"
+    }
+  ]
+}
