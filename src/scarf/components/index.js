@@ -3,3 +3,4 @@ export * from "./ChalFular";
 export * from "./CartItems";
 export * from "./CartSlider";
 export * from "./ProductItem";
+export * from "./CheckoutItems";

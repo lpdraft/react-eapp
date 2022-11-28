@@ -1,7 +1,5 @@
-export const CheckOut = () => {
-  return (
-    <div>
-      <h6>Checkout Page</h6>
-    </div>
-  );
+import React from "react";
+
+export const Checkout = () => {
+  return <div>CheckOut</div>;
 };

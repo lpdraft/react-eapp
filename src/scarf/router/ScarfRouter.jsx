@@ -1,14 +1,13 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import { NavBar } from "../../nav";
+import { NavBar, Error } from "../../nav";
 import { ChalFular, AlpacaWool } from "../components";
-import { Home, ScarfInfo, Search } from "..";
+import { Home, ScarfInfo, Search, Checkout } from "../";
 import { CartProvider } from "../context/CartProvider";
 import { Container } from "react-bootstrap";
 
 export const ScarfRouter = () => {
   return (
     <CartProvider>
-      {/* We only want to see navbar once we have logged */}
       <NavBar />
 
       <Container>
@@ -22,9 +21,12 @@ export const ScarfRouter = () => {
           <Route path="/info/:scarfId" element={<ScarfInfo />} />
 
           <Route path="/search" element={<Search />} />
-          {/* <Route path="/checkout" element={<CheckOut />} /> */}
 
-          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/error" element={<Error />} />
+
+          <Route path="/check" element={<Checkout />} />
+
+          <Route path="/*" element={<Navigate to="/home" />} />
         </Routes>
       </Container>
     </CartProvider>

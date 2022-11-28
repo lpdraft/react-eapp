@@ -2,21 +2,17 @@ import { ProductItem } from "../components";
 import queryString from "query-string";
 import { useLocation } from "react-router-dom";
 import { getScarfByName } from "../helpers";
-// import searchCSS from "../../assets/css/search.css";
+import { Footer } from "../components/Footer";
 
 export const Search = () => {
   const location = useLocation();
-  // console.log(location);
 
   const { q = "" } = queryString.parse(location.search);
-  // // console.log(query);
 
   const scarfName = getScarfByName(q);
 
   return (
     <>
-      <h6>SearchPage</h6>
-
       <div>
         {q === "" ? (
           <div className="alert alert-primary"> Search Scarf</div>
@@ -32,6 +28,7 @@ export const Search = () => {
           <ProductItem key={scarf.id} {...scarf} />
         ))}
       </div>
+      <Footer />
     </>
   );
 };

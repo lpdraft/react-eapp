@@ -2,7 +2,6 @@ import { useState, useContext, useEffect } from "react";
 import { CartSlider } from "../components/CartSlider";
 import { CartContext } from "./CartContext";
 
-// export it as a react hook
 export const useCartContext = () => {
   return useContext(CartContext);
 };
@@ -15,6 +14,7 @@ export function CartProvider({ children }) {
   const hideCartSlider = () => setCartSlider(false);
 
   const cart = JSON.parse(localStorage.getItem("myCart")) ?? [];
+
   const [cartItems, setCartItems] = useState(cart);
 
   //   handeling cart items in localStorage

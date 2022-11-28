@@ -3,9 +3,16 @@ import { useCartContext } from "../context/CartProvider";
 import { CartItems } from "./CartItems";
 import { currencyFormat } from "../../assets/utilities/currencyFormat";
 import { scarfsData } from "../../data/dbData";
+import { useNavigate } from "react-router-dom";
 
 export const CartSlider = ({ toggleSliderCart }) => {
   const { hideCartSlider, cartItems } = useCartContext({});
+  const navigate = useNavigate();
+
+  const goCheckoutPage = () => {
+    hideCartSlider();
+    navigate("/check");
+  };
 
   return (
     <Offcanvas placement="end" show={toggleSliderCart} onHide={hideCartSlider}>
@@ -29,6 +36,11 @@ export const CartSlider = ({ toggleSliderCart }) => {
             )}
           </div>
         </Stack>
+        <div className="mt-3 row">
+          <button onClick={goCheckoutPage} className="btn btn-success">
+            Checkout
+          </button>
+        </div>
       </Offcanvas.Body>
     </Offcanvas>
   );
