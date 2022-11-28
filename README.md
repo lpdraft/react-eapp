@@ -17,7 +17,7 @@ You may also see any lint errors in the console.
 
 ## How the project is structured? The project is divided into two parts:
 
-- First layer is consits of the Login Module.
+- First layer consits of the Login Module.
 - In the second layer, we have the module of our ecommerce app itself.
 
 So, we will not be able to access the app if we have not logged in, since it is the first view that we will see. If we have an account and we log in correctly, then we will have access to the private route and be able to browse the whole app. 
